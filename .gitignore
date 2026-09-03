@@ -1,0 +1,34 @@
+# Salesforce CLI
+.sf/
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Spring Boot / Java
+target/
+*.class
+*.jar
+*.war
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# Logs
+*.log
+
+# Node.js
+node_modules/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
